@@ -1772,14 +1772,14 @@ printWindow.document.write('</body></html>');
                               .includes(searchTerm.toLowerCase())
                         )
                         .map((menu, index) => (
-                          <div className="col-sm-3 col-sm-3" key={index}>
+                          <div className="col-sm-2 col-sm-2" key={index}>
                             <div
                               className="menu-box"
                               onClick={() => addProductToCart(menu)}
                             >
                               <div className="menu-div">
                                 {/* <img src={`/uploads/${menu.photo}`} className=" foodimg" /> */}
-                                <h6 className="mt-2">{menu.foodmenuname}</h6>
+                                <h6 className="">{menu.foodmenuname}</h6>
                                 <p>Price: {menu.salesprice}</p>
                               </div>
                             </div>

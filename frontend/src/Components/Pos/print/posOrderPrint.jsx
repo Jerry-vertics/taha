@@ -18,7 +18,7 @@ const PosOrderPrint =({orderData,showPrintModal,setShowPrintModal}) =>{
 
     const handleClosePrint = () => {
         setShowPrintModal(false);
-        
+
       }
 
       const handlePrint = useReactToPrint({
@@ -54,18 +54,18 @@ const PosOrderPrint =({orderData,showPrintModal,setShowPrintModal}) =>{
   <p>No data</p>
 )}
 
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
               </div>
               <div className="modal-footer">
               <button onClick={handlePrint}>Print</button>
-          
+
               </div>
-  
+
             </div>
           </div>
         </div>
